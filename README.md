@@ -32,7 +32,7 @@ I'm Antonello Fratepietro, a cloud engineer and developer passionate about build
 
 ## Connect:
 
-- **Website:** [antonello.dev](https://www.antonello.dev)
+- **Website:** [fratepietro.com](https://www.fratepietro.com) [antonello.dev](https://www.antonello.dev)
 - **GitHub:** [@antonellof](https://github.com/antonellof)
 - **Credly:** [My Certifications](https://www.credly.com/users/antonello-fratepietro/badges#credly)
 - **Databricks:** [My Credentials](https://credentials.databricks.com/profile/antonellofratepietro50199/wallet)
