@@ -28,8 +28,10 @@ I'm Antonello Fratepietro, a cloud engineer and developer passionate about build
 
 - **[VittoriaDB](https://github.com/antonellof/VittoriaDB)** - Zero-configuration embedded vector database with HNSW indexing, ACID storage, and REST API. Single Go binary for local AI development.
 
-- **[DistX](https://github.com/antonellof/DistX)** [![Crates.io](https://img.shields.io/crates/v/distx.svg)](https://crates.io/crates/distx) - High-performance vector database written in Rust. Features HNSW indexing with SIMD optimizations, Qdrant-compatible REST API, and gRPC support.
+- **[DistX](https://github.com/antonellof/DistX)** - High-performance vector database written in Rust. Features HNSW indexing with SIMD optimizations, Qdrant-compatible REST API, and gRPC support.
 
+- **[PeerClaw](https://github.com/antonellof/peerclaw)** - Decentralized P2P AI agent network. One static binary. BitTorrent meets AI inference: peers share compute, agents earn & spend tokens.
+  
 ## Connect:
 
 - **Website:** [fratepietro.com](https://www.fratepietro.com) [antonello.dev](https://www.antonello.dev)
