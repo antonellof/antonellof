@@ -26,6 +26,8 @@ I'm Antonello Fratepietro, a cloud engineer and developer passionate about build
 
 ## Notable Projects:
 
+- **[s0-cli](https://github.com/antonellof/s0-cli)** - LLM-driven CLI agent that finds security vulnerabilities and AI-slop patterns (stub auth, hallucinated imports, dummy crypto, prompt-injection sinks). Hybrid of classic scanners (semgrep, bandit, gitleaks, trivy) + LLM triage, with a self-optimizing meta-harness loop.
+
 - **[VittoriaDB](https://github.com/antonellof/VittoriaDB)** - Zero-configuration embedded vector database with HNSW indexing, ACID storage, and REST API. Single Go binary for local AI development.
 
 - **[DistX](https://github.com/antonellof/DistX)** - High-performance vector database written in Rust. Features HNSW indexing with SIMD optimizations, Qdrant-compatible REST API, and gRPC support.
