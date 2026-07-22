@@ -37,6 +37,8 @@ I'm Antonello Fratepietro, a cloud engineer and developer passionate about build
 
 - **[Cognitora inference](https://github.com/antonellof/cognitora-inference)** - Open-source, datacenter-scale LLM inference stack: orchestration above vLLM, SGLang, TensorRT-LLM, and llama.cpp with KV-aware routing, prefill/decode disaggregation, multi-tier KV cache, and static Rust binaries for bare metal, Kubernetes, or cloud.
 
+- **[Rondine 🐦](https://github.com/antonellof/rondine)** - Hardware-aware local LLM launcher with optimized configs for Mac, NVIDIA GPUs, and DGX Spark.
+
 - **[s0-cli](https://github.com/antonellof/s0-cli)** - LLM-driven CLI agent that finds security vulnerabilities and AI-slop patterns (stub auth, hallucinated imports, dummy crypto, prompt-injection sinks). Hybrid of classic scanners (semgrep, bandit, gitleaks, trivy) + LLM triage, with a self-optimizing meta-harness loop.
 
 - **[VittoriaDB](https://github.com/antonellof/VittoriaDB)** - Zero-configuration embedded vector database with HNSW indexing, ACID storage, and REST API. Single Go binary for local AI development.
