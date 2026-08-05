@@ -35,6 +35,8 @@ I'm Antonello Fratepietro, a cloud engineer and developer passionate about build
 
 ## Notable Projects:
 
+- **[Ferrox](https://github.com/antonellof/ferrox)** - Pure-Rust GGUF inference engine with quantized CPU, Metal & CUDA kernels, MoE support, OpenAI-compatible server. Benchmarked head-to-head against llama.cpp.
+
 - **[Cognitora inference](https://github.com/antonellof/cognitora-inference)** - Open-source, datacenter-scale LLM inference stack: orchestration above vLLM, SGLang, TensorRT-LLM, and llama.cpp with KV-aware routing, prefill/decode disaggregation, multi-tier KV cache, and static Rust binaries for bare metal, Kubernetes, or cloud.
 
 - **[Rondine 🐦](https://github.com/antonellof/rondine)** - Hardware-aware local LLM launcher with optimized configs for Mac, NVIDIA GPUs, and DGX Spark.
