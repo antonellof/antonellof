@@ -35,19 +35,23 @@ I'm Antonello Fratepietro, a cloud engineer and developer passionate about build
 
 ## Notable Projects:
 
-- **[Ferrox](https://github.com/antonellof/ferrox)** - Pure-Rust GGUF inference engine with quantized CPU, Metal & CUDA kernels, MoE support, OpenAI-compatible server. Benchmarked head-to-head against llama.cpp.
+- **[Ferrox](https://github.com/antonellof/ferrox)** [![Crates.io](https://img.shields.io/crates/v/ferrox-inference.svg)](https://crates.io/crates/ferrox-inference) - Pure-Rust GGUF inference engine: quantized CPU, Apple Metal and CUDA kernels, mixture-of-experts support, and an OpenAI-compatible server. Every speed claim is benchmarked head-to-head against llama.cpp on the same host and file. Write-ups: *[a Rust GGUF engine, measured against llama.cpp](/2026/ferrox-rust-gguf-inference-engine/)* and *[Ferrox on Metal, at parity with llama.cpp and past it](/2026/ferrox-metal-parity-llama-cpp/)*.
 
-- **[Cognitora inference](https://github.com/antonellof/cognitora-inference)** - Open-source, datacenter-scale LLM inference stack: orchestration above vLLM, SGLang, TensorRT-LLM, and llama.cpp with KV-aware routing, prefill/decode disaggregation, multi-tier KV cache, and static Rust binaries for bare metal, Kubernetes, or cloud.
+- **[MARS](https://github.com/antonellof/MARS)** - GPU-resident multimodal memory substrate for real-time embodied AI. Episode-scoped retrieval as a CUDA kernel-level primitive: 197 µs p99 at N=1M with perfect cross-modal `hit@15`, 33× faster than FAISS-Flat-GPU on the same hardware. Companion paper: *[MARS: Episode-Scoped GPU Retrieval for Real-Time Embodied AI](https://www.fratepietro.com/papers/MARS/main.pdf)*.
 
-- **[Rondine 🐦](https://github.com/antonellof/rondine)** - Hardware-aware local LLM launcher with optimized configs for Mac, NVIDIA GPUs, and DGX Spark.
+- **[Cognitora inference](https://github.com/antonellof/cognitora-inference)** - Open-source, datacenter-scale LLM orchestration above vLLM, SGLang, TensorRT-LLM, and llama.cpp: KV-aware routing, prefill/decode disaggregation, multi-tier KV cache, static Rust binaries for bare metal, Kubernetes, or cloud.
 
-- **[s0-cli](https://github.com/antonellof/s0-cli)** - LLM-driven CLI agent that finds security vulnerabilities and AI-slop patterns (stub auth, hallucinated imports, dummy crypto, prompt-injection sinks). Hybrid of classic scanners (semgrep, bandit, gitleaks, trivy) + LLM triage, with a self-optimizing meta-harness loop.
+- **[gitgui](https://github.com/antonellof/gitgui)** - A git GUI that runs inside the terminal, next to your coding agent. One Rust binary paints an iced interface as pixels into a cmux, Ghostty or kitty pane over the kitty graphics protocol, or opens a desktop window where the terminal has no graphics: commit graph, staging by file, hunk or line, a three-way conflict resolver, history rewriting, a built-in editor, draggable panes, and a socket so agents like Pi drive it. Write-up: *[gitgui: a real git GUI inside cmux, next to Pi](/2026/gitgui-terminal-git-gui-cmux-pi/)*.
+
+- **[Rondine](https://github.com/antonellof/rondine)** 🐦 - Hardware-aware local LLM launcher. Detects the machine, picks a model that fits, and applies tuned configs for Mac, NVIDIA GPUs and DGX Spark instead of leaving you to do flag archaeology. Write-up: *[Rondine: hardware-aware local LLM serving](/2026/rondine-hardware-aware-local-llm-launcher/)*.
+
+- **[s0-cli](https://github.com/antonellof/s0-cli)** - LLM-driven CLI agent that finds security vulnerabilities and AI-slop patterns: stub auth, hallucinated imports, dummy crypto, prompt-injection sinks. Hybrid of classic scanners (semgrep, bandit, gitleaks, trivy) with LLM triage on top, plus a self-optimizing meta-harness loop. Write-up: *[the meta-harness that tunes its own scanner](/2026/s0-cli-meta-harness-security-scanner/)*.
 
 - **[VittoriaDB](https://github.com/antonellof/VittoriaDB)** - Zero-configuration embedded vector database with HNSW indexing, ACID storage, and REST API. Single Go binary for local AI development.
 
-- **[DistX](https://github.com/antonellof/DistX)** - High-performance vector database written in Rust. Features HNSW indexing with SIMD optimizations, Qdrant-compatible REST API, and gRPC support.
+- **[DistX](https://github.com/antonellof/DistX)** [![Crates.io](https://img.shields.io/crates/v/distx.svg)](https://crates.io/crates/distx) - High-performance vector database written in Rust. Features HNSW indexing with SIMD optimizations, Qdrant-compatible REST API, and gRPC support.
 
-- **[PeerClaw](https://github.com/antonellof/peerclaw)** - Decentralized P2P AI agent network. One static binary. BitTorrent meets AI inference: peers share compute, agents earn & spend tokens.
+- **[PeerClaw](https://github.com/antonellof/peerclaw)** - Decentralized P2P AI agent network in a single static binary. BitTorrent shape applied to inference: peers share compute, agents earn and spend tokens for it.
   
 ## Connect:
 
